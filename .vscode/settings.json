@@ -1,0 +1,9 @@
+{
+    "files.associations": {
+        "P-333.C": "cpp",
+        "p_1222.C": "cpp",
+        "P-68.C": "cpp",
+        "stdio.h": "c"
+    },
+    "git.ignoreLimitWarning": true
+}
