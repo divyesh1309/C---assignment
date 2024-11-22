@@ -2,19 +2,19 @@
 
 int main () {
 
-    int years, days, months;
+    float years, days, months;
 
     printf("Enter the number of years : ");
-    scanf("%d", &years);
+    scanf("%f", &years);
 
     days = years * 365;
 
     //convert Days into months 
-    months = days / 30;        
-    days = days % 30;          
+    days = years*365;
+    months = years*12;         
 
     //output
-    printf("%d years is approximately , %d months , and %d days.\n", years, months, days);
+    printf("%.2f years is approximately , %.2f months , and %.2f  days.\n", years, months, days);
 
 
     return 0;

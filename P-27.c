@@ -2,17 +2,16 @@
 
 int main () {
 
-    int days, months;
+    int days;
+    float months;     //for a decimal value ke liye float 
 
     printf("Enter the number of days : ");
     scanf("%d", &days);
 
-    //convert
-    months = days / 30;
+    //conver days in to months 
+    months = days / 30.0;
 
     //output
-    printf("%d months\n", months);
-
-    return 0;
+    printf("%.2f months", months);
 
 }

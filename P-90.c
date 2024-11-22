@@ -19,5 +19,5 @@ void revstr(char *str2)
         revstr(str2+1);
         printf("%c",*str2);
     }
-
+    
 }

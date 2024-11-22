@@ -23,7 +23,7 @@ int main() {
         case 'u':
          printf("Vowel\n");
             break;
-        case 'A':
+        case 'A':            
          printf("Vowel\n");
             break;
         case 'E':

@@ -18,7 +18,8 @@ int main() {
     if (operator == '+') {
         result = num1 + num2;
         printf("%.2f + %.2f = %.2f\n", num1, num2, result);
-    } else if (operator == '-') {
+    } 
+    else if (operator == '-') {
         result = num1 - num2;
         printf("%.2f - %.2f = %.2f\n", num1, num2, result);
     } else if (operator == '*') {

@@ -1,16 +1,20 @@
-#include <stdio.h>
+#include<stdio.h>
+int main()
+{
+    int num[5], i;    //array use hoga 
 
-int main() {
-
-    int num, i; 
-    
-    printf("Enter 5 numbers : \n");
-
-    for (i = 1; i <= 5; i++) {
-        printf("Enter number %d : ", i);
-        scanf("%d", &num);  
+    for (int i = 0; i < 5; i++)      //1st loop user se number input lene ke liye 
+    {
+        printf("Enter number : ");
+        scanf("%d",&num[i]);
     }
-    printf("number : %d\n", num);
 
-    return 0;
+    //output 
+    printf("all number : ");
+    for (i = 0; i < 5; i++)      //2nd loop sare number ko ek sath print karega 
+    {
+        printf("%d ", num[i]);  
+    }
+    
+return 0;
 }
